@@ -90,20 +90,51 @@ class WeaponShops {
         };
     };
 
-    class mormont {
-        name = "Al Qaeda";
+ class mormont {
+        name = "Al Qaeda Arms Dealer";
         side = "civ";
         license = "mormont";
         level[] = { "", "", -1, "" };
         items[] = {
-			{ "CUP_srifle_M110", "", 250000, 500 },
+            { "CUP_arifle_AK107", "", 120000, -1 },
+            { "CUP_arifle_AK47", "", 90000, -1 },
+            { "CUP_arifle_AKS_Gold", "", 150000, -1 },
+            { "CUP_srifle_CZ550", "", 150000, -1 },
+            { "CUP_srifle_L129A1_HG", "", 180000, -1 },
+            { "CUP_arifle_RPK74_45", "", 180000, -1 },
+            { "CUP_srifle_SVD", "", 200000, -1 },
+            { "CUP_lmg_PKM", "", 160000, -1 },
+            { "CUP_srifle_CZ750", "", 180000, -1 },
+            { "CUP_lmg_UK59", "", 160000, -1 },
+            { "CUP_launch_RPG7V", "", 360000, -1 },
+            { "CUP_hgun_SA61", "", 20000, -1 },
+            { "CUP_hgun_Colt1911", "", 16000, -1 },
+            { "CUP_hgun_Glock17", "", 16000, -1 },         
+            { "CUP_srifle_M110", "", 250000, 500 },
             { "CUP_arifle_MG36", "", 150000, -1 },
             { "CUP_arifle_RPK74", "", 180000, -1 },
             { "CUP_arifle_M4A1_desert", "", 90000, -1 }
         };
         mags[] = {
+            { "CUP_6Rnd_HE_GP25_M", "", 300 },
+            { "CUP_30Rnd_545x39_AK_M", "", 275 },
+            { "CUP_30Rnd_762x39_AK47_M", "", 500 },
+            { "CUP_5x_22_LR_17_HMR_M", "", 500 },
+            { "CUP_5Rnd_127x108_KSVK_M", "", 500 },
+            { "CUP_20Rnd_762x51_L129_M", "", 500 },
+            { "CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M", "", 500 },
+            { "30Rnd_556x45_Stanag", "", 500 },
+            { "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", "", 500 },
+            { "CUP_10Rnd_762x54_SVD_M", "", 500 },
+            { "CUP_5x_22_LR_17_HMR_M", "", 125 },
+            { "CUP_50Rnd_UK59_762x54R_Tracer", "", 125 },
+            { "CUP_10Rnd_762x51_CZ750_Tracer", "", 125 },
+            { "CUP_PG7V_M", "", 125 },
+            { "CUP_20Rnd_B_765x17_Ball_M", "", 125 },
+            { "CUP_7Rnd_45ACP_1911", "", 125 },
+            { "CUP_17Rnd_9x19_glock17", "", 125 },
             { "100Rnd_580x42_Mag_F", "", 250 },
-			{ "CUP_20Rnd_762x51_B_M110", "", 250 },
+            { "CUP_20Rnd_762x51_B_M110", "", 250 },
             { "CUP_100Rnd_556x45_BetaCMag", "", 500 },
             { "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M", "", 450 },
             { "CUP_30Rnd_556x45_Stanag", "", 750 }
@@ -111,29 +142,59 @@ class WeaponShops {
         accs[] = {
         };
     };
-
-
-	class blackwater {
-		name = "Black Water";
-		side = "civ";
-		license = "blackwater";
-		level[] = { "", "", -1, "" };
-		items[] = {
-			{ "CUP_srifle_M110", "", 250000, 500 },
-			{ "CUP_arifle_MG36", "", 15000, -1 },
-			{ "CUP_arifle_RPK74", "", 180000, -1 },
-			{ "CUP_arifle_M4A1_desert", "", 90000, -1 }
-		};
-		mags[] = {
-			{ "100Rnd_580x42_Mag_F", "", 250 },
-			{ "CUP_20Rnd_762x51_B_M110", "", 250 },
-			{ "CUP_100Rnd_556x45_BetaCMag", "", 500 },
-			{ "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M", "", 450 },
-			{ "CUP_30Rnd_556x45_Stanag", "", 750 }
-		};
-		accs[] = {
-		};
-	};
+ 
+    class blackwater {
+        name = "Black Water Arms Dealer";
+        side = "civ";
+        license = "blackwater";
+        level[] = { "", "", -1, "" };
+        items[] = {
+            { "CUP_arifle_AK107", "", 120000, -1 },
+            { "CUP_arifle_AK47", "", 90000, -1 },
+            { "CUP_arifle_AKS_Gold", "", 150000, -1 },
+            { "CUP_srifle_CZ550", "", 150000, -1 },
+            { "CUP_srifle_L129A1_HG", "", 180000, -1 },
+            { "CUP_arifle_RPK74_45", "", 180000, -1 },
+            { "CUP_srifle_SVD", "", 200000, -1 },
+            { "CUP_lmg_PKM", "", 160000, -1 },
+            { "CUP_srifle_CZ750", "", 180000, -1 },
+            { "CUP_lmg_UK59", "", 160000, -1 },
+            { "CUP_launch_RPG7V", "", 360000, -1 },
+            { "CUP_hgun_SA61", "", 20000, -1 },
+            { "CUP_hgun_Colt1911", "", 16000, -1 },
+            { "CUP_hgun_Glock17", "", 16000, -1 },         
+            { "CUP_srifle_M110", "", 250000, 500 },
+            { "CUP_arifle_MG36", "", 150000, -1 },
+            { "CUP_arifle_RPK74", "", 180000, -1 },
+            { "CUP_arifle_M4A1_desert", "", 90000, -1 }
+        };
+        mags[] = {
+            { "CUP_6Rnd_HE_GP25_M", "", 300 },
+            { "CUP_30Rnd_545x39_AK_M", "", 275 },
+            { "CUP_30Rnd_762x39_AK47_M", "", 500 },
+            { "CUP_5x_22_LR_17_HMR_M", "", 500 },
+            { "CUP_5Rnd_127x108_KSVK_M", "", 500 },
+            { "CUP_20Rnd_762x51_L129_M", "", 500 },
+            { "CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M", "", 500 },
+            { "30Rnd_556x45_Stanag", "", 500 },
+            { "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", "", 500 },
+            { "CUP_10Rnd_762x54_SVD_M", "", 500 },
+            { "CUP_5x_22_LR_17_HMR_M", "", 125 },
+            { "CUP_50Rnd_UK59_762x54R_Tracer", "", 125 },
+            { "CUP_10Rnd_762x51_CZ750_Tracer", "", 125 },
+            { "CUP_PG7V_M", "", 125 },
+            { "CUP_20Rnd_B_765x17_Ball_M", "", 125 },
+            { "CUP_7Rnd_45ACP_1911", "", 125 },
+            { "CUP_17Rnd_9x19_glock17", "", 125 },
+            { "100Rnd_580x42_Mag_F", "", 250 },
+            { "CUP_20Rnd_762x51_B_M110", "", 250 },
+            { "CUP_100Rnd_556x45_BetaCMag", "", 500 },
+            { "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M", "", 450 },
+            { "CUP_30Rnd_556x45_Stanag", "", 750 }
+        };
+        accs[] = {
+        };
+    };
 
 	class pmclvl4 {
 		name = "PMC High Rank Weapon Shop";
@@ -226,8 +287,8 @@ class WeaponShops {
 		license = "lvl1";
 		level[] = { "", "", -1, "" };
 		items[] = {
-			{ "UK3CB_BAF_Eotech", "", 750 }
-			{ "UK3CB_BAF_LLM_Flashlight_Black", "", 750 }	
+			{ "UK3CB_BAF_Eotech", "", 750 },
+			{ "UK3CB_BAF_LLM_Flashlight_Black", "", 750 },	
 			{ "RKSL_optic_LDS", "", 750 }
 		};
 		mags[] = {
@@ -648,6 +709,7 @@ class WeaponShops {
 			{ "hgun_P07_snds_F", $STR_W_items_StunPistol, 1000, 200, },
 			{ "CUP_arifle_M4A1_black", "", 10000, 200, },
 			{ "CUP_arifle_M16A4_Base", "", 12000, 200, },
+			{ "UK3CB_BAF_L119A1_SpecterLDS_FG", "", 12000, 200, },
 			{ "UK3CB_BAF_L91A1", "", 8000, 200, },
 			{ "UK3CB_BAF_L129A1_FGrip", "", 12000, 200, },
 			{ "NVGoggles", "", 500, 980 },
@@ -659,14 +721,20 @@ class WeaponShops {
 			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
 			{ "CUP_30Rnd_556x45_Stanag", "", 45 },
 			{ "UK3CB_BAF_762_L42A1_20Rnd", "", 45 },
-			{ "UK3CB_BAF_9_30Rnd", "", 65 }
+			{ "UK3CB_BAF_9_30Rnd", "", 65 },
+			{ "UK3CB_BAF_556_30Rnd", "", 65 }
+							
 		};
 		accs[] = {
 			{ "UK3CB_BAF_TA31F", "", 650 },
 			{ "CUP_optic_TrijiconRx01_black", "", 650 },
 			{ "UK3CB_BAF_LLM_IR_Black", "", 650 },
 			{ "RKSL_optic_PMII_312_sunshade", "", 650 },
-			{ "CUP_optic_CompM2_Black", "", 650 }
+			{ "CUP_optic_CompM2_Black", "", 650 },
+			{ "UK3CB_BAF_Silencer_L85", "", 650 },
+			{ "UK3CB_BAF_LLM_IR_Black", "", 650 },
+			{ "RKSL_optic_LDS", "", 650 }
+			
 		};
 	};
 
@@ -686,6 +754,7 @@ class WeaponShops {
 			{ "hgun_P07_snds_F", $STR_W_items_StunPistol, 1000, 200, },
 			{ "CUP_arifle_M4A1_black", "", 10000, 200, },
 			{ "CUP_arifle_M16A4_Base", "", 12000, 200, },
+			{ "UK3CB_BAF_L119A1_SpecterLDS_FG", "", 12000, 200, },
 			{ "UK3CB_BAF_L91A1", "", 8000, 200, },
 			{ "UK3CB_BAF_L129A1_FGrip", "", 12000, 200, },
 			{ "NVGoggles", "", 500, 980 },
@@ -697,14 +766,18 @@ class WeaponShops {
 			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
 			{ "CUP_30Rnd_556x45_Stanag", "", 45 },
 			{ "UK3CB_BAF_762_L42A1_20Rnd", "", 45 },
-			{ "UK3CB_BAF_9_30Rnd", "", 65 }
+			{ "UK3CB_BAF_9_30Rnd", "", 65 },
+			{ "UK3CB_BAF_556_30Rnd", "", 65 }
 		};
 		accs[] = {
 			{ "UK3CB_BAF_TA31F", "", 650 },
 			{ "CUP_optic_TrijiconRx01_black", "", 650 },
 			{ "UK3CB_BAF_LLM_IR_Black", "", 650 },
 			{ "RKSL_optic_PMII_312_sunshade", "", 650 },
-			{ "CUP_optic_CompM2_Black", "", 650 }
+			{ "CUP_optic_CompM2_Black", "", 650 },
+			{ "UK3CB_BAF_Silencer_L85", "", 650 },
+			{ "UK3CB_BAF_LLM_IR_Black", "", 650 },
+			{ "RKSL_optic_LDS", "", 650 }
 		};
 	};
 
@@ -724,6 +797,7 @@ class WeaponShops {
 			{ "hgun_P07_snds_F", $STR_W_items_StunPistol, 1000, 200, },
 			{ "CUP_arifle_M4A1_black", "", 10000, 200, },
 			{ "CUP_arifle_M16A4_Base", "", 12000, 200, },
+			{ "UK3CB_BAF_L119A1_SpecterLDS_FG", "", 12000, 200, },
 			{ "UK3CB_BAF_L91A1", "", 8000, 200, },
 			{ "UK3CB_BAF_L129A1_FGrip", "", 12000, 200, },
 			{ "NVGoggles", "", 500, 980 },
@@ -735,14 +809,18 @@ class WeaponShops {
 			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
 			{ "CUP_30Rnd_556x45_Stanag", "", 45 },
 			{ "UK3CB_BAF_762_L42A1_20Rnd", "", 45 },
-			{ "UK3CB_BAF_9_30Rnd", "", 65 }
+			{ "UK3CB_BAF_9_30Rnd", "", 65 },
+			{ "UK3CB_BAF_556_30Rnd", "", 65 }
 		};
 		accs[] = {
 			{ "UK3CB_BAF_TA31F", "", 650 },
 			{ "CUP_optic_TrijiconRx01_black", "", 650 },
 			{ "UK3CB_BAF_LLM_IR_Black", "", 650 },
 			{ "RKSL_optic_PMII_312_sunshade", "", 650 },
-			{ "CUP_optic_CompM2_Black", "", 650 }
+			{ "CUP_optic_CompM2_Black", "", 650 },
+			{ "UK3CB_BAF_Silencer_L85", "", 650 },
+			{ "UK3CB_BAF_LLM_IR_Black", "", 650 },
+			{ "RKSL_optic_LDS", "", 650 }
 		};
 	};
 
@@ -762,6 +840,7 @@ class WeaponShops {
 			{ "hgun_P07_snds_F", $STR_W_items_StunPistol, 1000, 200, },
 			{ "CUP_arifle_M4A1_black", "", 10000, 200, },
 			{ "CUP_arifle_M16A4_Base", "", 12000, 200, },
+			{ "UK3CB_BAF_L119A1_SpecterLDS_FG", "", 12000, 200, },
 			{ "UK3CB_BAF_L91A1", "", 8000, 200, },
 			{ "UK3CB_BAF_L129A1_FGrip", "", 12000, 200, },
 			{ "NVGoggles", "", 500, 980 },
@@ -773,14 +852,18 @@ class WeaponShops {
 			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
 			{ "CUP_30Rnd_556x45_Stanag", "", 45 },
 			{ "UK3CB_BAF_762_L42A1_20Rnd", "", 45 },
-			{ "UK3CB_BAF_9_30Rnd", "", 65 }
+			{ "UK3CB_BAF_9_30Rnd", "", 65 },
+			{ "UK3CB_BAF_556_30Rnd", "", 65 }
 		};
 		accs[] = {
 			{ "UK3CB_BAF_TA31F", "", 650 },
 			{ "CUP_optic_TrijiconRx01_black", "", 650 },
 			{ "UK3CB_BAF_LLM_IR_Black", "", 650 },
 			{ "RKSL_optic_PMII_312_sunshade", "", 650 },
-			{ "CUP_optic_CompM2_Black", "", 650 }
+			{ "CUP_optic_CompM2_Black", "", 650 },
+			{ "UK3CB_BAF_Silencer_L85", "", 650 },
+			{ "UK3CB_BAF_LLM_IR_Black", "", 650 },
+			{ "RKSL_optic_LDS", "", 650 }
 		};
 	};
 
@@ -800,11 +883,18 @@ class WeaponShops {
 			{ "hgun_P07_snds_F", $STR_W_items_StunPistol, 1000, 200, },
 			{ "CUP_arifle_M4A1_black", "", 10000, 200, },
 			{ "CUP_arifle_M16A4_Base", "", 12000, 200, },
+			{ "UK3CB_BAF_L119A1_SpecterLDS_FG", "", 12000, 200, },
 			{ "UK3CB_BAF_L91A1", "", 8000, 200, },
 			{ "UK3CB_BAF_L129A1_FGrip", "", 12000, 200, },
 			{ "NVGoggles", "", 500, 980 },
 			{ "tf_anprc152", "", 200, 50 },
-			{ "Item_Rangefinder", "", 2000, 50 }
+			{ "Item_Rangefinder", "", 2000, 50 },
+			{ "CUP_launch_FIM92Stinger", "", 2000, 50 },
+		    { "CUP_srifle_M24_wdl", "", 2000, 50 },
+			{ "Item_Rangefinder", "", 2000, 50 },
+			{ "CUP_HandGrenade_M67", "", 2000, 50 },
+			{ "DemoCharge_Remote_Mag", "", 10000, 50 },
+			{ "CUP_launch_M136", "", 10000, 50 }
 			
 		};
 		mags[] = {
@@ -812,14 +902,25 @@ class WeaponShops {
 			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
 			{ "CUP_30Rnd_556x45_Stanag", "", 45 },
 			{ "UK3CB_BAF_762_L42A1_20Rnd", "", 45 },
-			{ "UK3CB_BAF_9_30Rnd", "", 65 }
+			{ "UK3CB_BAF_9_30Rnd", "", 65 },
+			{ "UK3CB_BAF_556_30Rnd", "", 65 },
+			{ ""CUP_5Rnd_762x51_M24"", "", 65 },
+			{ ""CUP_Stinger_M"", "", 65 },
+			{ ""CUP_M136_M"", "", 1000 }
 		};
 		accs[] = {
 			{ "UK3CB_BAF_TA31F", "", 650 },
 			{ "CUP_optic_TrijiconRx01_black", "", 650 },
 			{ "UK3CB_BAF_LLM_IR_Black", "", 650 },
 			{ "RKSL_optic_PMII_312_sunshade", "", 650 },
-			{ "CUP_optic_CompM2_Black", "", 650 }
+			{ "CUP_optic_CompM2_Black", "", 650 },
+			{ "UK3CB_BAF_Silencer_L85", "", 650 },
+			{ "UK3CB_BAF_LLM_IR_Black", "", 650 },
+			{ "RKSL_optic_LDS", "", 650 },
+			{ "muzzle_snds_B_snd_F", "", 650 },
+			{ "CUP_Mxx_camo_half", "", 650 },
+			{ "optic_AMS_khk", "", 650 },
+			{ "bipod_03_F_blk", "", 650 }
 		};
 	};
 
@@ -839,25 +940,42 @@ class WeaponShops {
 			{ "hgun_P07_snds_F", $STR_W_items_StunPistol, 1000, 200, },
 			{ "CUP_arifle_M4A1_black", "", 10000, 200, },
 			{ "CUP_arifle_M16A4_Base", "", 12000, 200, },
+			{ "UK3CB_BAF_L119A1_SpecterLDS_FG", "", 12000, 200, },
 			{ "UK3CB_BAF_L91A1", "", 8000, 200, },
 			{ "UK3CB_BAF_L129A1_FGrip", "", 12000, 200, },
 			{ "NVGoggles", "", 500, 980 },
 			{ "tf_anprc152", "", 200, 50 },
-			{ "Item_Rangefinder", "", 2000, 50 }
+			{ "CUP_launch_FIM92Stinger", "", 2000, 50 },
+		    { "CUP_srifle_M24_wdl", "", 2000, 50 },
+			{ "Item_Rangefinder", "", 2000, 50 },
+			{ "CUP_HandGrenade_M67", "", 2000, 50 },
+			{ "DemoCharge_Remote_Mag", "", 10000, 50 },
+			{ "CUP_launch_M136", "", 10000, 50 }
 		};
 		mags[] = {
 			{ "16Rnd_9x21_Mag", "", 25 },
 			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
 			{ "CUP_30Rnd_556x45_Stanag", "", 45 },
 			{ "UK3CB_BAF_762_L42A1_20Rnd", "", 45 },
-			{ "UK3CB_BAF_9_30Rnd", "", 65 }
+			{ "UK3CB_BAF_9_30Rnd", "", 65 },
+			{ "UK3CB_BAF_556_30Rnd", "", 65 },
+			{ ""CUP_5Rnd_762x51_M24"", "", 65 },
+			{ ""CUP_Stinger_M"", "", 65 },
+			{ ""CUP_M136_M"", "", 1000 }
 		};
 		accs[] = {
 			{ "UK3CB_BAF_TA31F", "", 650 },
 			{ "CUP_optic_TrijiconRx01_black", "", 650 },
 			{ "UK3CB_BAF_LLM_IR_Black", "", 650 },
 			{ "RKSL_optic_PMII_312_sunshade", "", 650 },
-			{ "CUP_optic_CompM2_Black", "", 650 }
+			{ "CUP_optic_CompM2_Black", "", 650 },
+			{ "UK3CB_BAF_Silencer_L85", "", 650 },
+			{ "UK3CB_BAF_LLM_IR_Black", "", 650 },
+			{ "RKSL_optic_LDS", "", 650 },
+			{ "muzzle_snds_B_snd_F", "", 650 },
+			{ "CUP_Mxx_camo_half", "", 650 },
+			{ "optic_AMS_khk", "", 650 },
+			{ "bipod_03_F_blk", "", 650 }
 		};
 	};
 
@@ -877,7 +995,7 @@ class WeaponShops {
 			{ "UK3CB_BAF_556_30Rnd", "", 1 },
 			{ "CUP_optic_CompM2_Black", "", 100, -1 },
 			{ "UK3CB_BAF_Silencer_L85", "", 800, -1 },
-			{ "CUP_optic_HoloBlack", "", 300, -1 }
+			{ "CUP_optic_HoloBlack", "", 300, -1 },
 			{ "tf_anprc152", "", 200, 50 },
 			{ "Item_Rangefinder", "", 2000, 50 }
 		};
@@ -894,7 +1012,7 @@ class WeaponShops {
 		level[] = { "life_mediclevel", "SCALAR", 2, "You must be the appropriate level!" };
 		items[] = {
 			{ "UK3CB_BAF_L1A1", "", 12000, -1 },
-			{ "UK3CB_BAF_762_20Rnd", "", 130 }
+			{ "UK3CB_BAF_762_20Rnd", "", 130 },
 			{ "tf_anprc152", "", 200, 50 },
 			{ "Item_Rangefinder", "", 2000, 50 }
 		};
@@ -931,7 +1049,7 @@ class WeaponShops {
 			{ "UK3CB_BAF_L115A3", "", 20000, -1 },
 			{ "UK3CB_BAF_762_20Rnd", "", 130 },
 			{ "optic_KHS_old", "", 500 },
-			{ "RKSL_optic_PMII_312_sunshade", "", 130 }
+			{ "RKSL_optic_PMII_312_sunshade", "", 130 },
 			{ "tf_anprc152", "", 200, 50 },
 			{ "Item_Rangefinder", "", 2000, 50 }
 		};
@@ -951,7 +1069,7 @@ class WeaponShops {
             { "ItemGPS", "", 100, 45 },
             { "Binocular", "", 150, -1 },
             { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 1200, 980 }
+            { "NVGoggles", "", 1200, 980 },
 			{ "tf_anprc152", "", 200, 50 }
         };
         mags[] = {};
