@@ -34,14 +34,14 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "H_Bandanna_gry", "", 120, { "", "", -1 } },
-            { "H_Bandanna_blu", "", 130, { "", "", -1 } },
-            { "H_Bandanna_cbr", "", 135, { "", "", -1 } },
-            { "CUP_H_FR_BandanaGreen", "", 145, { "", "", -1 } },
-            { "H_Bandanna_mcamo", "", 150, { "", "", -1 } },
-            { "H_Bandanna_khk", "", 150, { "", "", -1 } },
-            { "H_Bandanna_sgg", "", 150, { "", "", -1 } },
-            { "H_Bandanna_sand", "", 150, { "", "", -1 } }
+            { "H_Bandanna_gry", "", 50, { "", "", -1 } },
+            { "H_Bandanna_blu", "", 50, { "", "", -1 } },
+            { "H_Bandanna_cbr", "", 50, { "", "", -1 } },
+            { "CUP_H_FR_BandanaGreen", "", 50, { "", "", -1 } },
+            { "H_Bandanna_mcamo", "", 50, { "", "", -1 } },
+            { "H_Bandanna_khk", "", 50, { "", "", -1 } },
+            { "H_Bandanna_sgg", "", 50, { "", "", -1 } },
+            { "H_Bandanna_sand", "", 50, { "", "", -1 } }
 
         };
         goggles[] = {
@@ -50,12 +50,12 @@ class Clothing {
             { "G_Shades_Blue", "", 20, { "", "", -1 } },
             { "G_Shades_Green", "", 20, { "", "", -1 } },
             { "G_Shades_Red", "", 20, { "", "", -1 } },
-            { "G_Sport_Blackred", "", 25, { "", "", -1 } },
-            { "G_Sport_BlackWhite", "", 25, { "", "", -1 } },
-            { "G_Sport_Blackyellow", "", 25, { "", "", -1 } },
-            { "G_Sport_Checkered", "", 25, { "", "", -1 } },
-            { "G_Sport_Greenblack", "", 25, { "", "", -1 } },
-            { "G_Sport_Red", "", 25, { "", "", -1 } }
+            { "G_Sport_Blackred", "", 20, { "", "", -1 } },
+            { "G_Sport_BlackWhite", "", 20, { "", "", -1 } },
+            { "G_Sport_Blackyellow", "", 20, { "", "", -1 } },
+            { "G_Sport_Checkered", "", 20, { "", "", -1 } },
+            { "G_Sport_Greenblack", "", 20, { "", "", -1 } },
+            { "G_Sport_Red", "", 20, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
