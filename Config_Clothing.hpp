@@ -34,7 +34,7 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "H_Bandanna_gry", "", 50, { "", "", -1 } },
+            { "UK3CB_BAF_H_Wool_Hat", "", 50, { "", "", -1 } },
             { "H_Bandanna_blu", "", 50, { "", "", -1 } },
             { "H_Bandanna_cbr", "", 50, { "", "", -1 } },
             { "CUP_H_FR_BandanaGreen", "", 50, { "", "", -1 } },
