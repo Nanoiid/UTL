@@ -204,7 +204,6 @@ class WeaponShops {
 		items[] = {
 			{ "UK3CB_BAF_L110A3", "", 130000, 500 },
 			{ "CUP_hgun_Phantom", "", 18000, -1 },
-			{ "UK3CB_BAF_L128A1", "", 95000, -1 },
 			{ "UK3CB_BAF_L115A3", "", 180000, 500 },
 			{ "arifle_AK12_F", "", 90000, 500 },	
 			{ "CUP_M72A6_M", "", 360000, -1 }
@@ -212,7 +211,6 @@ class WeaponShops {
 		mags[] = {
 			{ "UK3CB_BAF_338_5Rnd", "", 250 },
 			{ "UK3CB_BAF_556_200Rnd", "", 250 },
-			{ "UK3CB_BAF_12G_Pellets", "", 500 },
 			{ "30Rnd_762x39_Mag_F", "", 450 },
 			{ "CUP_launch_M72A6_Special", "", 380000, -1 }			
 		};
@@ -247,31 +245,18 @@ class WeaponShops {
 			{ "acc_flashlight", "", 750 },
 			{ "optic_Holosight", "", 5000 },
 			{ "optic_Arco", "", 10000 },
-			{ "CUP_Mxx_camo", "", 100 },
 			{ "Item_Rangefinder", "", 10000 },
 			{ "CUP_Mxx_camo_half", "", 100 },
 			{ "CUP_optic_MAAWS_Scope", "", 100 },
 			{ "CUP_optic_SMAW_Scope", "", 100 },
-			{ "CUP_optic_PSO_1", "", 100 },
 			{ "CUP_optic_PSO_3", "", 100 },
 			{ "CUP_optic_Kobra", "", 100 },
 			{ "CUP_optic_GOSHAWK", "", 100 },
 			{ "CUP_optic_NSPU", "", 100 },
 			{ "CUP_optic_PechenegScope", "", 100 },
-			{ "CUP_muzzle_PBS4", "", 100 },
-			{ "CUP_muzzle_PB6P9", "", 100 },
-			{ "CUP_muzzle_Bizon", "", 100 },
-			{ "CUP_acc_Glock17_Flashlight", "", 100 },
-			{ "CUP_muzzle_snds_M9", "", 100 },
-			{ "CUP_muzzle_snds_MicroUzi", "", 100 },
-			{ "CUP_SVD_camo_g", "", 100 },
-			{ "CUP_SVD_camo_g_half", "", 100 },
 			{ "CUP_SVD_camo_d", "", 100 },
-			{ "CUP_SVD_camo_d_half", "", 100 },
-			{ "optic_ACO_grn", "", 3500 },
-			{ "optic_Holosight", "", 3600 },
-			{ "optic_Hamr", "", 7500 },
-			{ "acc_flashlight", "", 1000 }
+			{ "CUP_SVD_camo_d_half", "", 100 }
+			
 		};
 		mags[] = {
 
@@ -495,44 +480,14 @@ class WeaponShops {
           { "UK3CB_BAF_TA31F", "", 650 }
         };
     };
+	
+	
 
-	class pvfc_patrol {
+	class corp_patrol {
 		name = "Private First Class Shop";
 		side = "cop";
 		license = "";
-		level[] = { "life_coplevel", "SCALAR", 2, "You must be a Constable" };
-		items[] = {
-      { "HandGrenade_Stone", "Flashbang", 100, -1 },
-      { "Binocular", "", 750, -1 },
-      { "ItemGPS", "", 500, 45 },
-      { "ItemMap", "", 250, 35 },
-      { "ItemCompass", "", 250, 25 },
-      { "ItemWatch", "", 250, -1 },
-      { "FirstAidKit", "", 750, 65 },
-      { "hgun_P07_snds_F", $STR_W_items_StunPistol, 1000, 200, },
-      { "CUP_arifle_M4A1_black", "", 10000, 200, },
-      { "CUP_arifle_M16A4_Base", "", 12000, 200, },
-      { "NVGoggles", "", 500, 50 },
-	  { "tf_anprc152", "", 200, 50 },
-	  { "Item_Rangefinder", "", 2000, 50 }
-	  
-		};
-		mags[] = {
-      { "16Rnd_9x21_Mag", "", 50 },
-      { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 },
-      { "CUP_30Rnd_556x45_Stanag", "", 65 }
-		};
-		accs[] = {
-      { "UK3CB_BAF_TA31F", "", 650 },
-      { "CUP_optic_CompM2_Black", "", 650 }
-		};
-	};
-
-	class corp_patrol {
-		name = "Corporal Shop";
-		side = "cop";
-		license = "";
-		level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant" };
+		level[] = { "life_coplevel", "SCALAR", 3, "You must be a Private First Class" };
 		items[] = {
 			{ "HandGrenade_Stone", "Flashbang", 100, -1 },
 			{ "Binocular", "", 750, -1 },
@@ -580,10 +535,10 @@ class WeaponShops {
 
 
 	class cop_ss {
-		name = "Sergeant Shop";
+		name = "Corporal Shop";
 		side = "cop";
 		license = "";
-		level[] = { "life_coplevel", "SCALAR", 4, "You must be a Sergant" };
+		level[] = { "life_coplevel", "SCALAR", 4, "You must be a Corporal" };
 		items[] = {
 			{ "HandGrenade_Stone", "Flashbang", 100, -1 },
 			{ "Binocular", "", 750, -1 },
@@ -618,10 +573,10 @@ class WeaponShops {
 	};
 
 	class cop_sfc {
-		name = "Staff Sergeant Shop";
+		name = "Sergeant Shop";
 		side = "cop";
 		license = "";
-		level[] = { "life_coplevel", "SCALAR", 5, "You must be a Staff Sergeant" };
+		level[] = { "life_coplevel", "SCALAR", 5, "You must be a Sergeant" };
 		items[] = {
 			{ "HandGrenade_Stone", "Flashbang", 100, -1 },
 			{ "Binocular", "", 750, -1 },
@@ -656,10 +611,10 @@ class WeaponShops {
 	};
 
 	class cop_ms {
-		name = "Master Sergeant Shop";
+		name = "Lieutenant Shop";
 		side = "cop";
 		license = "";
-		level[] = { "life_coplevel", "SCALAR", 6, "You must be Superintendent" };
+		level[] = { "life_coplevel", "SCALAR", 6, "You must be Lieutenant" };
 		items[] = {
 			{ "HandGrenade_Stone", "Flashbang", 1000, -1 },
 			{ "Binocular", "", 750, -1 },
@@ -694,10 +649,10 @@ class WeaponShops {
 	};
 
 	class cop_l {
-		name = "lieutenant Shop";
+		name = "Captain Shop";
 		side = "cop";
 		license = "";
-		level[] = { "life_coplevel", "SCALAR", 7, "You must be Chief Superintendent" };
+		level[] = { "life_coplevel", "SCALAR", 7, "You must be Captain" };
 		items[] = {
 			{ "HandGrenade_Stone", "Flashbang", 1000, -1 },
 			{ "Binocular", "", 750, -1 },
@@ -739,7 +694,7 @@ class WeaponShops {
 	};
 
 	class cop_c {
-		name = "captain Shop";
+		name = "Commander Shop";
 		side = "cop";
 		license = "";
 		level[] = { "life_coplevel", "SCALAR", 8, "You must be Commander" };
@@ -782,10 +737,10 @@ class WeaponShops {
 	};
 
 	class cop_m {
-		name = "Major Shop";
+		name = "Superintendent Shop";
 		side = "cop";
 		license = "";
-		level[] = { "life_coplevel", "SCALAR", 9, "You must be Dep.Assist Commissioner" };
+		level[] = { "life_coplevel", "SCALAR", 9, "You must be Superintendent" };
 		items[] = {
 			{ "HandGrenade_Stone", "Flashbang", 1000, -1 },
 			{ "Binocular", "", 750, -1 },
@@ -825,10 +780,10 @@ class WeaponShops {
 	};
 
 	class cop_lc {
-		name = "LC Shop";
+		name = "Chief Superintendent Shop";
 		side = "cop";
 		license = "";
-		level[] = { "life_coplevel", "SCALAR", 10, "You must be Assistant Commissioner" };
+		level[] = { "life_coplevel", "SCALAR", 10, "You must be Chief Superintendent" };
 		items[] = {
 			{ "HandGrenade_Stone", "Flashbang", 1000, -1 },
 			{ "Binocular", "", 750, -1 },
@@ -868,7 +823,7 @@ class WeaponShops {
 	};
 
 	class cop_colonel {
-		name = "Colonel Shop";
+		name = "Deputy Commissioner Shop";
 		side = "cop";
 		license = "";
 		level[] = { "life_coplevel", "SCALAR", 11, "You must be Deputy Commissioner" };
@@ -925,7 +880,7 @@ class WeaponShops {
 	};
 
 	class cop_lg {
-		name = "LG";
+		name = "Commissioner Shop";
 		side = "cop";
 		license = "";
 		level[] = { "life_coplevel", "SCALAR", 12, "You must be Commissioner" };
