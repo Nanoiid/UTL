@@ -262,6 +262,7 @@ class Clothing {
 			{ "NONE", "Remove Uniform", 0,{ "", "", -1 } },
 			{ "VSM_OGA_Crye_SS_grey_tan_pants_Camo", "PMC Outfit", 2000,{ "", "", -1 } },
 			{ "VSM_OGA_Crye_grey_tan_pants_Camo", "PMC Outfit", 2000,{ "", "", -1 } },
+			{ "VSM_OGA_Crye_SS_grey_tan_pants_Camo", "PMC Outfit", 2000,{ "", "", -1 } },
 			{ "VSM_OGA_tan_casual_Camo", "PMC Outfit", 2000,{ "", "", -1 } }
 			
 			
@@ -274,12 +275,15 @@ class Clothing {
 			{ "H_Cap_blk_ION", "PMC Helmet", 200,{ "", "", -1 } },
 			{ "VSM_BackwardsHat_Peltor_ION", "PMC Helmet", 200,{ "", "", -1 } },
 			{ "VSM_Mich2000_2_OGA", "PMC Helmet", 200,{ "", "", -1 } },
+			{ "TRYK_r_cap_blk_Glasses", "PMC Helmet", 200,{ "", "", -1 } },
 			{ "VSM_Bowman_cap_Tan", "PMC Helmet", 200,{ "", "", -1 } }
 		};
 		goggles[] = {
 			{ "NONE", "Remove Glasses", 0,{ "", "", -1 } },
 			{ "VSM_Shemagh_Glasses_OD", "PMC Glassas", 100,{ "", "", -1 } },
 			{ "VSM_Balaclava2_black_Peltor", "PMC Glassas", 100,{ "", "", -1 } },
+			{ "VSM_Shemagh_Balaclava_OD", "PMC Glassas", 100,{ "", "", -1 } },
+			{ "VSM_Thermal", "PMC Glassas", 100,{ "", "", -1 } },
 			{ "VSM_Shemagh_Facemask_OD", "PMC Glassas", 100,{ "", "", -1 } }
 			
 		};
@@ -287,7 +291,9 @@ class Clothing {
 			{ "NONE", "Remove Vest", 0,{ "", "", -1 } },
 			{ "VSM_OGA_tan_casual_Camo", "PMC Vest", 12000,{ "", "", -1 } },
 			{ "VSM_CarrierRig_Operator_OGA", "PMC Vest", 13000,{ "", "", -1 } },
-			{ "VSM_CarrierRig_Operator_OGA", "PMC Vest", 13000,{ "", "", -1 } },
+			{ "VSM_FAPC_Breacher_OGA", "PMC Vest", 13000,{ "", "", -1 } },
+			{ "VSM_FAPC_Operator_OGA", "PMC Vest", 13000,{ "", "", -1 } },
+			{ "VSM_FAPC_MG_OGA", "PMC Vest", 13000,{ "", "", -1 } },
 			{ "VSM_FAPC_Breacher_OGA", "PMC Vest", 13000,{ "", "", -1 } },
 			{ "VSM_LBT6094_operator_OGA", "PMC Vest", 13000,{ "", "", -1 } }
 		};
