@@ -127,7 +127,7 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "CUP_C_MI6T_RU", { 1800000, 1700000, -1 } },
-			{ "CUP_C_Mi17_Civilian_RU",{ 800000, 450000, -1 } },
+			{ "CUP_C_Mi17_Civilian_RU",{ 800000, 700000, -1 } },
 			{ "CUP_O_AN2_TK",{ 150000, 75000, -1 } },
 			{ "CUP_O_C47_SLA",{ 200000, 100000, -1 } },
 			{ "CUP_C_Cessna_172_CIV",{ 75000, 35000, -1 } },
@@ -447,7 +447,7 @@ class LifeCfgVehicles {
 		textures[] = {};
 	};
 
-	//
+	//end of rebel cars
 
 
 	// PMC
