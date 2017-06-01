@@ -126,8 +126,8 @@ class CarShops {
     class civ_air {
         side = "civ";
         vehicles[] = {
-            { "CUP_C_MI6T_RU", { 300000, 50000, -1 } },
-			{ "CUP_C_Mi17_Civilian_RU",{ 100000, 50000, -1 } },
+            { "CUP_C_MI6T_RU", { 1800000, 1700000, -1 } },
+			{ "CUP_C_Mi17_Civilian_RU",{ 800000, 450000, -1 } },
 			{ "CUP_O_AN2_TK",{ 150000, 75000, -1 } },
 			{ "CUP_O_C47_SLA",{ 200000, 100000, -1 } },
 			{ "CUP_C_Cessna_172_CIV",{ 75000, 35000, -1 } },
@@ -149,9 +149,9 @@ class CarShops {
 	class reb_air {
 		side = "civ";
 		vehicles[] = {
-			{ "CUP_O_Su25_TKA",{ 11000000, 5500000, -1 } },
-			{ "CUP_O_Mi17_TK",{ 1000000, 500000, -1 } },
-			{ "CUP_O_SU34_AGM_CSAT",{ 36000000, 18000000, -1 } }
+			{ "CUP_O_Su25_TKA",{ 11000000, 9000000, -1 } },
+			{ "CUP_O_Mi17_TK",{ 1800000, 1600000, -1 } },
+			{ "CUP_O_SU34_AGM_CSAT",{ 36000000, 32000000, -1 } }
 		};
 	};
 	
@@ -350,14 +350,14 @@ class LifeCfgVehicles {
 	class CUP_C_Mi17_Civilian_RU {
 		vItemSpace = 375;
 		licenses[] = { { "" },{ "" },{ "" },{ "" } };
-		price = 100000;
+		price = 800000;
 		textures[] = {};
 	};
 
 	class CUP_C_MI6T_RU {
 		vItemSpace = 425;
 		licenses[] = { { "" },{ "" },{ "" },{ "" } };
-		price = 300000;
+		price = 1800000;
 		textures[] = {};
 	};
 
@@ -764,17 +764,10 @@ class LifeCfgVehicles {
 		textures[] = {};
 	};
 
-	class CUP_B_L39_RKT_CZ {
+	class CUP_O_Mi17_TK {
 		vItemSpace = 0;
 		licenses[] = { { "" },{ "" },{ "" },{ "" } };
-		price = -1;
-		textures[] = {};
-	};
-
-	class CUP_B_MV22_VIV_USMC {
-		vItemSpace = 400;
-		licenses[] = { { "" },{ "" },{ "" },{ "" } };
-		price = -1;
+		price = 1800000;
 		textures[] = {};
 	};
 
