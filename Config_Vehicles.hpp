@@ -127,6 +127,8 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "CUP_C_MI6T_RU", { 1800000, 1700000, -1 } },
+			{ "C_Heli_Light_01_civil_F", { 100000, 80000, -1 } },
+			{ "O_Heli_Light_02_unarmed_F", { 300000, 280000, -1 } },
 			{ "CUP_C_Mi17_Civilian_RU",{ 800000, 700000, -1 } },
 			{ "CUP_O_AN2_TK",{ 150000, 75000, -1 } },
 			{ "CUP_O_C47_SLA",{ 200000, 100000, -1 } },
@@ -361,7 +363,26 @@ class LifeCfgVehicles {
 		textures[] = {};
 	};
 
-
+	class C_Heli_Light_01_civil_F {
+        vItemSpace = 25;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 80000;
+        textures[] = {};
+    };
+	
+	class C_Heli_Light_01_civil_F {
+        vItemSpace = 25;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 80000;
+        textures[] = {};
+    };
+	
+	class O_Heli_Light_02_unarmed_F {
+        vItemSpace = 150;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 300000;
+        textures[] = {};
+    };
 	//
 
 	//medic
