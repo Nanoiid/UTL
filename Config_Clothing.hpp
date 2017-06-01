@@ -174,12 +174,12 @@ class Clothing {
             { "VSM_OGA_OD_Backpack_Kitbag", "", 1500, { "", "", -1 } },
             { "UK3CB_BAF_B_Bergen_TAN_Rifleman_A", "", 1500, { "", "", -1 } },
             { "CUP_B_Bergen_BAF", "", 2500, { "", "", -1 } },
-            { "UK3CB_BAF_B_Carryall_Arctic", "", 2500, { "", "", -1 } },
+            { "UK3CB_BAF_B_Carryall_Arctic", "", 1000, { "", "", -1 } },
             { "B_Carryall_cbr", "", 2500, { "", "", -1 } },
             { "UK3CB_BAF_B_Kitbag_Arctic", "", 3000, { "", "", -1 } },
             { "TRYK_B_Coyotebackpack_BLK", "", 3000, { "", "", -1 } },
             { "TRYK_B_Coyotebackpack_WH", "", 3000, { "", "", -1 } },
-            { "TRYK_B_Carryall_blk", "", 4500, { "", "", -1 } },
+            { "TRYK_B_Carryall_blk", "", 1000, { "", "", -1 } },
             { "TRYK_B_Kitbag_blk", "", 4500, { "", "", -1 } },
             { "CUP_B_AssaultPack_Black", "", 6500, { "", "", -1 } }
         };
